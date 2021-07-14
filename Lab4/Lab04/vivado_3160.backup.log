@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 14 22:25:00 2020
+# Process ID: 3160
+# Current directory: C:/Users/Lucifer.dark/Desktop/Lab04
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11076 C:\Users\Lucifer.dark\Desktop\Lab04\Lab04.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/Lab04/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Lab04\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+close [ open C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/ALUControl.v w ]
+add_files C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/ALUControl.v
+update_compile_order -fileset sources_1
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name Mem -dir c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip
+set_property -dict [list CONFIG.depth {512} CONFIG.data_width {32} CONFIG.Component_Name {Mem}] [get_ips Mem]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'Mem' to 'Mem' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/Mem.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Mem'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/Mem.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Mem'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Mem'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Mem'...
+catch { config_ip_cache -export [get_ips -all Mem] }
+export_ip_user_files -of_objects [get_files c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/Mem.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/Mem.xci]
+launch_runs -jobs 6 Mem_synth_1
+[Thu May 14 22:41:37 2020] Launched Mem_synth_1...
+Run output will be captured here: C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.runs/Mem_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/Mem.xci] -directory C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.ip_user_files -ipstatic_source_dir C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.cache/compile_simlib/modelsim} {questa=C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.cache/compile_simlib/questa} {riviera=C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.cache/compile_simlib/riviera} {activehdl=C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.coefficient_file {c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/ip.coe}] [get_ips Mem]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/ip.coe' provided. It will be converted relative to IP Instance files 'ip.coe'
+generate_target all [get_files  c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/Mem.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Mem'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Mem'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Mem'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Mem'...
+catch { config_ip_cache -export [get_ips -all Mem] }
+export_ip_user_files -of_objects [get_files c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/Mem.xci] -no_script -sync -force -quiet
+reset_run Mem_synth_1
+launch_runs -jobs 6 Mem_synth_1
+[Thu May 14 22:44:14 2020] Launched Mem_synth_1...
+Run output will be captured here: C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.runs/Mem_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/Mem.xci] -directory C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.ip_user_files -ipstatic_source_dir C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.cache/compile_simlib/modelsim} {questa=C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.cache/compile_simlib/questa} {riviera=C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.cache/compile_simlib/riviera} {activehdl=C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+close [ open C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_2.v w ]
+add_files C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_2.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_3.v w ]
+add_files C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_3.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_4.v w ]
+add_files C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_4.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 14 23:13:23 2020...

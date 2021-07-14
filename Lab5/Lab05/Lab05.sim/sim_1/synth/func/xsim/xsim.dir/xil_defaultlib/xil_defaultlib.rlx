@@ -1,0 +1,6 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim/test_func_synth.v,1591353019,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v,,DMem;DMem_dist_mem_gen_v8_0_13;DMem_dist_mem_gen_v8_0_13_synth;DMem_spram;EXMEM;IDEX;IFID;IMem;IMem_dist_mem_gen_v8_0_13;IMem_dist_mem_gen_v8_0_13_synth;IMem_rom;MEMWB;alu;alu_0;alu_5;compare;control;dff;dff_10;dff_17;dff_18;dff_19;dff_20;dff_21;dff_25;dff_30;dff_6;dff_8;dff_9;dff__parameterized0;dff__parameterized0_12;dff__parameterized0_22;dff__parameterized0_23;dff__parameterized0_24;dff__parameterized0_31;dff__parameterized1;dff__parameterized1_11;dff__parameterized1_13;dff__parameterized1_14;dff__parameterized1_15;dff__parameterized1_16;dff__parameterized1_26;dff__parameterized1_27;dff__parameterized1_28;dff__parameterized1_29;dff__parameterized1_7;dff__parameterized2;glbl;hazard;mux;mux4;mux4_2;mux4_3;mux4_4;mux__parameterized0;mux__parameterized0_1;regfile;top,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v,1591237205,verilog,,,,test,,,,,,,,

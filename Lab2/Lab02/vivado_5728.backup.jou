@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May  6 17:23:07 2020
+# Process ID: 5728
+# Current directory: C:/Users/Lucifer.dark/Desktop/Lab02
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8116 C:\Users\Lucifer.dark\Desktop\Lab02\Lab02.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/Lab02/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Lab02\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top register_file_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source register_file_test.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RAM0_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source RAM0_test.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RAM1_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source RAM1_test.tcl
+set_property -dict [list CONFIG.Register_PortA_Output_of_Memory_Primitives {true}] [get_ips RAM1]
+generate_target all [get_files  C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.srcs/sources_1/ip/RAM1/RAM1.xci]
+catch { config_ip_cache -export [get_ips -all RAM1] }
+catch { [ delete_ip_run [get_ips -all RAM1] ] }
+export_ip_user_files -of_objects [get_files C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.srcs/sources_1/ip/RAM1/RAM1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.srcs/sources_1/ip/RAM1/RAM1.xci]
+export_simulation -of_objects [get_files C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.srcs/sources_1/ip/RAM1/RAM1.xci] -directory C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.ip_user_files -ipstatic_source_dir C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.cache/compile_simlib/modelsim} {questa=C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.cache/compile_simlib/questa} {riviera=C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.cache/compile_simlib/riviera} {activehdl=C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+relaunch_sim
+set_property -dict [list CONFIG.Register_PortA_Output_of_Memory_Primitives {false}] [get_ips RAM1]
+generate_target all [get_files  C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.srcs/sources_1/ip/RAM1/RAM1.xci]
+catch { config_ip_cache -export [get_ips -all RAM1] }
+export_ip_user_files -of_objects [get_files C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.srcs/sources_1/ip/RAM1/RAM1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.srcs/sources_1/ip/RAM1/RAM1.xci]
+export_simulation -of_objects [get_files C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.srcs/sources_1/ip/RAM1/RAM1.xci] -directory C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.ip_user_files -ipstatic_source_dir C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.cache/compile_simlib/modelsim} {questa=C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.cache/compile_simlib/questa} {riviera=C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.cache/compile_simlib/riviera} {activehdl=C:/Users/Lucifer.dark/Desktop/Lab02/Lab02.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top EDG_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source EDG_test.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FIFO_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source FIFO_test.tcl
+current_wave_config {Untitled 5}
+add_wave {{/FIFO_test/fifo/head}} 
+current_wave_config {Untitled 5}
+add_wave {{/FIFO_test/fifo/tail}} 
+current_wave_config {Untitled 5}
+add_wave {{/FIFO_test/fifo/addr}} 
+relaunch_sim
+run all
+close_sim

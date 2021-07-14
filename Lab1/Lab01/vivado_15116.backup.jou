@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Apr 25 17:34:25 2020
+# Process ID: 15116
+# Current directory: C:/Users/Lucifer.dark/Desktop/Lab01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent868 C:\Users\Lucifer.dark\Desktop\Lab01\Lab01.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/Lab01/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Lab01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/Lab01/Lab01.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source alu_test.tcl
+close_sim

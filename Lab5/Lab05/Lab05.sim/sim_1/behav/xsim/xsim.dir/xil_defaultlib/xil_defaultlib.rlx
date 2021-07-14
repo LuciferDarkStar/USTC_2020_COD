@@ -1,0 +1,22 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v,1591409443,verilog,,,,test,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/ip/DMem/sim/DMem.v,1591408900,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/ip/IMem/sim/IMem.v,,DMem,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/ip/IMem/sim/IMem.v,1591408887,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/EXMEM.v,,IMem,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/EXMEM.v,1591496971,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/IDEX.v,,EXMEM,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/IDEX.v,1591022038,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/IFID.v,,IDEX,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/IFID.v,1591021979,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/MEMWB.v,,IFID,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/MEMWB.v,1591022205,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/alu.v,,MEMWB,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/alu.v,1591021523,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/compare.v,,alu,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/compare.v,1591022275,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/control.v,,compare,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/control.v,1591208829,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/dff.v,,control,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/dff.v,1591021791,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/forward.v,,dff,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/forward.v,1591022333,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/hazard.v,,forward,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/hazard.v,1591237155,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/mux.v,,hazard,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/mux.v,1591021864,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/mux4.v,,mux,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/mux4.v,1591021911,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/regfile.v,,mux4,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/regfile.v,1591192348,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/top.v,,regfile,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/top.v,1591410089,verilog,,C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v,,top,,,,,,,,

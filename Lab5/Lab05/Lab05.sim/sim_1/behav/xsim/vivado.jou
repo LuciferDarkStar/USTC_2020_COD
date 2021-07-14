@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun  4 01:27:27 2020
+# Process ID: 18332
+# Current directory: C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19932 C:\Users\Lucifer.dark\Desktop\Lab05\Lab05.sim\sim_1\behav\xsim\test_behav.wdb
+# Log file: C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\Users\Lucifer.dark\Desktop\Lab05\Lab05.sim\sim_1\behav\xsim\test_behav.wdb}
+close_sim

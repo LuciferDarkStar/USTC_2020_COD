@@ -1,0 +1,19 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sim_1/new/DBU_test.v,1589122746,verilog,,,,DBU_test,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sim_1/new/RAM_test.v,1588911528,verilog,,,,RAM_test,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sim_1/new/ROM_test.v,1588865159,verilog,,,,ROM_test,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/ALU.v,1587806521,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/ALUControl.v,,ALU,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/MUX.v,1589117824,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/register_file.v,,MUX,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/ip/DM/sim/DM.v,1589115844,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/ip/IM/sim/IM.v,,DM,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/ip/IM/sim/IM.v,1589123587,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/ALU.v,,IM,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/ALUControl.v,1588859806,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/CPU.v,,ALUControl,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/CPU.v,1589374999,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/Control.v,,CPU,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/Control.v,1589120971,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/DBU.v,,Control,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/DBU.v,1589554072,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/EDG.v,,DBU,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/EDG.v,1589375816,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/Jitter_clr.v,,EDG,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/new/Jitter_clr.v,1589081304,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/MUX.v,,Jitter_clr,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sources_1/register_file.v,1588859184,verilog,,C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.srcs/sim_1/new/DBU_test.v,,register_file,,,,,,,,

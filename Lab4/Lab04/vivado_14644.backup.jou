@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri May 15 20:01:52 2020
+# Process ID: 14644
+# Current directory: C:/Users/Lucifer.dark/Desktop/Lab04
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6816 C:\Users\Lucifer.dark\Desktop\Lab04\Lab04.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/Lab04/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Lab04\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sim_1/new/CPU_test.v w ]
+add_files -fileset sim_1 C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sim_1/new/CPU_test.v
+update_compile_order -fileset sim_1
+launch_simulation
+source CPU_test.tcl
+update_compile_order -fileset sim_1
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/MemData}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/PC}} 
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/Instruction}} 
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/ALU_result}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/ALUOut}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/Read_data1}} 
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/Read_data2}} 
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/A}} 
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/B}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/ALU_OP1}} 
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/ALU_OP2}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/Write_data}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/RegWrite}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/Write_register}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/addr}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/CPU_test/cpu/Memdata_r}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source CPU_test.tcl
+current_wave_config {Untitled 2}
+add_wave {{/CPU_test/cpu/MemData}} 
+relaunch_sim
+close_sim
+close [ open C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/DBU.v w ]
+add_files C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/DBU.v
+update_compile_order -fileset sources_1

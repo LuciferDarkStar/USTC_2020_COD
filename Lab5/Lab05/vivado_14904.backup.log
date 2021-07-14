@@ -1,0 +1,599 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jun  5 18:29:47 2020
+# Process ID: 14904
+# Current directory: C:/Users/Lucifer.dark/Desktop/Lab05
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1084 C:\Users\Lucifer.dark\Desktop\Lab05\Lab05.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/Lab05/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Lab05\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation -mode post-synthesis -type functional
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/ip/DMem/DMem.dcp' for cell 'DMem'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/ip/IMem/IMem.dcp' for cell 'IMem'
+INFO: [Netlist 29-17] Analyzing 326 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1133.059 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 33 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 32 instances
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1223.008 ; gain = 422.863
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode funcsim -nolib -force -file "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim/test_func_synth.v"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim/test_func_synth.v
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim/DMem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim/COE.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim/IMem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim/COE.coe'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim/test_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMem
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-311] analyzing module IMem
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module alu_0
+INFO: [VRFC 10-311] analyzing module alu_5
+INFO: [VRFC 10-311] analyzing module compare
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-311] analyzing module dff_10
+INFO: [VRFC 10-311] analyzing module dff_17
+INFO: [VRFC 10-311] analyzing module dff_18
+INFO: [VRFC 10-311] analyzing module dff_19
+INFO: [VRFC 10-311] analyzing module dff_20
+INFO: [VRFC 10-311] analyzing module dff_21
+INFO: [VRFC 10-311] analyzing module dff_25
+INFO: [VRFC 10-311] analyzing module dff_30
+INFO: [VRFC 10-311] analyzing module dff_6
+INFO: [VRFC 10-311] analyzing module dff_8
+INFO: [VRFC 10-311] analyzing module dff_9
+INFO: [VRFC 10-311] analyzing module dff__parameterized0
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_12
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_22
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_23
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_24
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_31
+INFO: [VRFC 10-311] analyzing module dff__parameterized1
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_11
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_13
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_14
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_15
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_16
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_26
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_27
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_28
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_29
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_7
+INFO: [VRFC 10-311] analyzing module dff__parameterized2
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-311] analyzing module mux4_2
+INFO: [VRFC 10-311] analyzing module mux4_3
+INFO: [VRFC 10-311] analyzing module mux4_4
+INFO: [VRFC 10-311] analyzing module mux__parameterized0
+INFO: [VRFC 10-311] analyzing module mux__parameterized0_1
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module DMem_dist_mem_gen_v8_0_13
+INFO: [VRFC 10-311] analyzing module DMem_dist_mem_gen_v8_0_13_synth
+INFO: [VRFC 10-311] analyzing module DMem_spram
+INFO: [VRFC 10-311] analyzing module IMem_dist_mem_gen_v8_0_13
+INFO: [VRFC 10-311] analyzing module IMem_dist_mem_gen_v8_0_13_synth
+INFO: [VRFC 10-311] analyzing module IMem_rom
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim'
+"xelab -wto bdaea6a68dfa4e92a65984aee07fc91c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot test_func_synth xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto bdaea6a68dfa4e92a65984aee07fc91c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot test_func_synth xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.alu_0
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.dff
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.RAM256X1S
+Compiling module xil_defaultlib.DMem_spram
+Compiling module xil_defaultlib.DMem_dist_mem_gen_v8_0_13_synth
+Compiling module xil_defaultlib.DMem_dist_mem_gen_v8_0_13
+Compiling module xil_defaultlib.DMem
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module xil_defaultlib.dff_25
+Compiling module xil_defaultlib.dff__parameterized1_26
+Compiling module xil_defaultlib.dff__parameterized1_27
+Compiling module xil_defaultlib.dff__parameterized1_28
+Compiling module xil_defaultlib.dff__parameterized1_29
+Compiling module xil_defaultlib.dff_30
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.dff__parameterized0_31
+Compiling module xil_defaultlib.EXMEM
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module xil_defaultlib.dff__parameterized1_11
+Compiling module xil_defaultlib.dff__parameterized2
+Compiling module xil_defaultlib.dff__parameterized0_12
+Compiling module xil_defaultlib.dff__parameterized1_13
+Compiling module xil_defaultlib.dff__parameterized1_14
+Compiling module xil_defaultlib.dff__parameterized1_15
+Compiling module xil_defaultlib.dff__parameterized1_16
+Compiling module xil_defaultlib.dff_17
+Compiling module xil_defaultlib.dff_18
+Compiling module xil_defaultlib.dff_19
+Compiling module xil_defaultlib.dff_20
+Compiling module xil_defaultlib.dff_21
+Compiling module xil_defaultlib.dff__parameterized0_22
+Compiling module xil_defaultlib.dff__parameterized0_23
+Compiling module xil_defaultlib.dff__parameterized0_24
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.dff_9
+Compiling module xil_defaultlib.dff_10
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.IMem_rom
+Compiling module xil_defaultlib.IMem_dist_mem_gen_v8_0_13_synth
+Compiling module xil_defaultlib.IMem_dist_mem_gen_v8_0_13
+Compiling module xil_defaultlib.IMem
+Compiling module unisims_ver.OBUFT
+Compiling module xil_defaultlib.dff_6
+Compiling module xil_defaultlib.dff__parameterized1
+Compiling module xil_defaultlib.dff__parameterized1_7
+Compiling module xil_defaultlib.dff_8
+Compiling module xil_defaultlib.dff__parameterized0
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.mux__parameterized0
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.mux__parameterized0_1
+Compiling module xil_defaultlib.mux4_2
+Compiling module xil_defaultlib.mux4_3
+Compiling module xil_defaultlib.mux4_4
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.alu_5
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.LDCP
+Compiling module xil_defaultlib.compare
+Compiling module unisims_ver.latchsre_ldpe
+Compiling module unisims_ver.LDPE
+Compiling module xil_defaultlib.control
+Compiling module unisims_ver.FDCE_default
+Compiling module xil_defaultlib.hazard
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_func_synth
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.031 ; gain = 227.117
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_func_synth -key {Post-Synthesis:sim_1:Functional:test} -tclbatch {test.tcl} -view {C:/Users/Lucifer.dark/Desktop/Lab05/test_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Lucifer.dark/Desktop/Lab05/test_behav.wcfg
+WARNING: Simulation object /test/top/ALUPCPlus/alu_a was not found in the design.
+WARNING: Simulation object /test/top/ALUPCPlus/alu_b was not found in the design.
+WARNING: Simulation object /test/top/ALUPCPlus/alu_op was not found in the design.
+WARNING: Simulation object /test/top/ALUPCPlus/alu_out was not found in the design.
+WARNING: Simulation object /test/top/RegRdaddr1_ID was not found in the design.
+WARNING: Simulation object /test/top/RegRdaddr2_ID was not found in the design.
+WARNING: Simulation object /test/top/PCEn was not found in the design.
+WARNING: Simulation object /test/top/ID_EX_Flush was not found in the design.
+WARNING: Simulation object /test/top/Rs was not found in the design.
+WARNING: Simulation object /test/top/Rt was not found in the design.
+WARNING: Simulation object /test/top/IF_ID_Flush was not found in the design.
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 134 ns : File "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v" Line 41
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:38 ; elapsed = 00:00:30 . Memory (MB): peak = 1700.301 ; gain = 900.539
+launch_simulation -mode post-synthesis -type timing
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim/test_time_synth.v"
+INFO: [SIM-utils-27] Writing SDF file...
+INFO: [SIM-utils-28] write_sdf -mode timesim -process_corner slow -force -file "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim/test_time_synth.sdf"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim/test_time_synth.v
+INFO: [SIM-utils-37] SDF generated:C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim/test_time_synth.sdf
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim/DMem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim/COE.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim/IMem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim/COE.coe'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim/test_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LDCP_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM256X1S_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD1
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD10
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD11
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD12
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD13
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD14
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD15
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD16
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD17
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD18
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD19
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD2
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD20
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD21
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD22
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD23
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD24
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD25
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD26
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD27
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD28
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD29
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD3
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD30
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD31
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD4
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD5
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD6
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD7
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD8
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD9
+INFO: [VRFC 10-311] analyzing module DMem
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-311] analyzing module IMem
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module alu_0
+INFO: [VRFC 10-311] analyzing module alu_5
+INFO: [VRFC 10-311] analyzing module compare
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-311] analyzing module dff_10
+INFO: [VRFC 10-311] analyzing module dff_17
+INFO: [VRFC 10-311] analyzing module dff_18
+INFO: [VRFC 10-311] analyzing module dff_19
+INFO: [VRFC 10-311] analyzing module dff_20
+INFO: [VRFC 10-311] analyzing module dff_21
+INFO: [VRFC 10-311] analyzing module dff_25
+INFO: [VRFC 10-311] analyzing module dff_30
+INFO: [VRFC 10-311] analyzing module dff_6
+INFO: [VRFC 10-311] analyzing module dff_8
+INFO: [VRFC 10-311] analyzing module dff_9
+INFO: [VRFC 10-311] analyzing module dff__parameterized0
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_12
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_22
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_23
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_24
+INFO: [VRFC 10-311] analyzing module dff__parameterized0_31
+INFO: [VRFC 10-311] analyzing module dff__parameterized1
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_11
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_13
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_14
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_15
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_16
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_26
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_27
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_28
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_29
+INFO: [VRFC 10-311] analyzing module dff__parameterized1_7
+INFO: [VRFC 10-311] analyzing module dff__parameterized2
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-311] analyzing module mux4_2
+INFO: [VRFC 10-311] analyzing module mux4_3
+INFO: [VRFC 10-311] analyzing module mux4_4
+INFO: [VRFC 10-311] analyzing module mux__parameterized0
+INFO: [VRFC 10-311] analyzing module mux__parameterized0_1
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module DMem_dist_mem_gen_v8_0_13
+INFO: [VRFC 10-311] analyzing module DMem_dist_mem_gen_v8_0_13_synth
+INFO: [VRFC 10-311] analyzing module DMem_spram
+INFO: [VRFC 10-311] analyzing module IMem_dist_mem_gen_v8_0_13
+INFO: [VRFC 10-311] analyzing module IMem_dist_mem_gen_v8_0_13_synth
+INFO: [VRFC 10-311] analyzing module IMem_rom
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim'
+"xelab -wto bdaea6a68dfa4e92a65984aee07fc91c --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot test_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto bdaea6a68dfa4e92a65984aee07fc91c --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot test_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "test_time_synth.sdf", for root module "test/top".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "test_time_synth.sdf", for root module "test/top".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.alu_0
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module simprims_ver.FDRE_default
+Compiling module xil_defaultlib.dff
+Compiling module simprims_ver.GND
+Compiling module simprims_ver.MUXF7
+Compiling module simprims_ver.MUXF8
+Compiling module simprims_ver.RAMS64E(RAM_ADDRESS_SPACE=2'b11)
+Compiling module simprims_ver.RAMS64E(RAM_ADDRESS_SPACE=2'b10)
+Compiling module simprims_ver.RAMS64E(RAM_ADDRESS_SPACE=2'b01)
+Compiling module simprims_ver.RAMS64E
+Compiling module xil_defaultlib.RAM256X1S_UNIQ_BASE_
+Compiling module xil_defaultlib.RAM256X1S_HD1
+Compiling module xil_defaultlib.RAM256X1S_HD2
+Compiling module xil_defaultlib.RAM256X1S_HD3
+Compiling module xil_defaultlib.RAM256X1S_HD4
+Compiling module xil_defaultlib.RAM256X1S_HD5
+Compiling module xil_defaultlib.RAM256X1S_HD6
+Compiling module xil_defaultlib.RAM256X1S_HD7
+Compiling module xil_defaultlib.RAM256X1S_HD8
+Compiling module xil_defaultlib.RAM256X1S_HD9
+Compiling module xil_defaultlib.RAM256X1S_HD10
+Compiling module xil_defaultlib.RAM256X1S_HD11
+Compiling module xil_defaultlib.RAM256X1S_HD12
+Compiling module xil_defaultlib.RAM256X1S_HD13
+Compiling module xil_defaultlib.RAM256X1S_HD14
+Compiling module xil_defaultlib.RAM256X1S_HD15
+Compiling module xil_defaultlib.RAM256X1S_HD16
+Compiling module xil_defaultlib.RAM256X1S_HD17
+Compiling module xil_defaultlib.RAM256X1S_HD18
+Compiling module xil_defaultlib.RAM256X1S_HD19
+Compiling module xil_defaultlib.RAM256X1S_HD20
+Compiling module xil_defaultlib.RAM256X1S_HD21
+Compiling module xil_defaultlib.RAM256X1S_HD22
+Compiling module xil_defaultlib.RAM256X1S_HD23
+Compiling module xil_defaultlib.RAM256X1S_HD24
+Compiling module xil_defaultlib.RAM256X1S_HD25
+Compiling module xil_defaultlib.RAM256X1S_HD26
+Compiling module xil_defaultlib.RAM256X1S_HD27
+Compiling module xil_defaultlib.RAM256X1S_HD28
+Compiling module xil_defaultlib.RAM256X1S_HD29
+Compiling module xil_defaultlib.RAM256X1S_HD30
+Compiling module xil_defaultlib.RAM256X1S_HD31
+Compiling module xil_defaultlib.DMem_spram
+Compiling module xil_defaultlib.DMem_dist_mem_gen_v8_0_13_synth
+Compiling module xil_defaultlib.DMem_dist_mem_gen_v8_0_13
+Compiling module xil_defaultlib.DMem
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module xil_defaultlib.dff_25
+Compiling module xil_defaultlib.dff__parameterized1_26
+Compiling module xil_defaultlib.dff__parameterized1_27
+Compiling module xil_defaultlib.dff__parameterized1_28
+Compiling module xil_defaultlib.dff__parameterized1_29
+Compiling module xil_defaultlib.dff_30
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.dff__parameterized0_31
+Compiling module xil_defaultlib.EXMEM
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.dff__parameterized1_11
+Compiling module xil_defaultlib.dff__parameterized2
+Compiling module xil_defaultlib.dff__parameterized0_12
+Compiling module xil_defaultlib.dff__parameterized1_13
+Compiling module xil_defaultlib.dff__parameterized1_14
+Compiling module xil_defaultlib.dff__parameterized1_15
+Compiling module xil_defaultlib.dff__parameterized1_16
+Compiling module xil_defaultlib.dff_17
+Compiling module xil_defaultlib.dff_18
+Compiling module xil_defaultlib.dff_19
+Compiling module xil_defaultlib.dff_20
+Compiling module xil_defaultlib.dff_21
+Compiling module xil_defaultlib.dff__parameterized0_22
+Compiling module xil_defaultlib.dff__parameterized0_23
+Compiling module xil_defaultlib.dff__parameterized0_24
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.dff_9
+Compiling module xil_defaultlib.dff_10
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.IMem_rom
+Compiling module xil_defaultlib.IMem_dist_mem_gen_v8_0_13_synth
+Compiling module xil_defaultlib.IMem_dist_mem_gen_v8_0_13
+Compiling module xil_defaultlib.IMem
+Compiling module simprims_ver.OBUFT
+Compiling module xil_defaultlib.dff_6
+Compiling module xil_defaultlib.dff__parameterized1
+Compiling module xil_defaultlib.dff__parameterized1_7
+Compiling module xil_defaultlib.dff_8
+Compiling module xil_defaultlib.dff__parameterized0
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.mux__parameterized0
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.mux__parameterized0_1
+Compiling module xil_defaultlib.mux4_2
+Compiling module xil_defaultlib.mux4_3
+Compiling module xil_defaultlib.mux4_4
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.alu_5
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.VCC
+Compiling module xil_defaultlib.LDCP_UNIQ_BASE_
+Compiling module xil_defaultlib.compare
+Compiling module simprims_ver.latchsre_ldpe
+Compiling module simprims_ver.LDPE
+Compiling module xil_defaultlib.control
+Compiling module simprims_ver.FDCE_default
+Compiling module xil_defaultlib.hazard
+Compiling module simprims_ver.BUFG
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_time_synth
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:30 . Memory (MB): peak = 1754.711 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '30' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/synth/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_time_synth -key {Post-Synthesis:sim_1:Timing:test} -tclbatch {test.tcl} -view {C:/Users/Lucifer.dark/Desktop/Lab05/test_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Lucifer.dark/Desktop/Lab05/test_behav.wcfg
+WARNING: Simulation object /test/top/ALUPCPlus/alu_a was not found in the design.
+WARNING: Simulation object /test/top/ALUPCPlus/alu_b was not found in the design.
+WARNING: Simulation object /test/top/ALUPCPlus/alu_op was not found in the design.
+WARNING: Simulation object /test/top/ALUPCPlus/alu_out was not found in the design.
+WARNING: Simulation object /test/top/RegRdaddr1_ID was not found in the design.
+WARNING: Simulation object /test/top/RegRdaddr2_ID was not found in the design.
+WARNING: Simulation object /test/top/PCEn was not found in the design.
+WARNING: Simulation object /test/top/ID_EX_Flush was not found in the design.
+WARNING: Simulation object /test/top/Rs was not found in the design.
+WARNING: Simulation object /test/top/Rt was not found in the design.
+WARNING: Simulation object /test/top/IF_ID_Flush was not found in the design.
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/FDCE.v" Line 169: Timing violation in scope /test/top/regfile/data_reg[11][1]/TChk169_46011 at time 125255 ps $setuphold (posedge C,posedge CE,(0:0:0),(0:0:0),notifier,ce_clk_enable_p,ce_clk_enable_p,C_dly,CE_dly) 
+$finish called at time : 134 ns : File "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v" Line 41
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_time_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:57 . Memory (MB): peak = 1754.711 ; gain = 27.828
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim/DMem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim/COE.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim/IMem.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim/COE.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim'
+"xelab -wto bdaea6a68dfa4e92a65984aee07fc91c --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_13 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto bdaea6a68dfa4e92a65984aee07fc91c --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_13 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'a' [C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/top.v:164]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'a' [C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sources_1/new/top.v:315]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -view {C:/Users/Lucifer.dark/Desktop/Lab05/test_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/Lucifer.dark/Desktop/Lab05/test_behav.wcfg
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+$finish called at time : 134 ns : File "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v" Line 41
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2223.906 ; gain = 0.000
+current_sim simulation_2
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  5 19:58:19 2020...

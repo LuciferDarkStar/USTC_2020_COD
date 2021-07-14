@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri May 15 22:41:14 2020
+# Process ID: 100
+# Current directory: C:/Users/Lucifer.dark/Desktop/Lab03
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11296 C:\Users\Lucifer.dark\Desktop\Lab03\Lab03.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/Lab03/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Lab03\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/Lab03/Lab03.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source DBU_test.tcl
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/DBU_test/dbu/m_rf_addr}} 
+relaunch_sim
+relaunch_sim
+close_sim

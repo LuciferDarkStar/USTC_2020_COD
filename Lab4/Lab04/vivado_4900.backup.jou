@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri May 15 22:51:44 2020
+# Process ID: 4900
+# Current directory: C:/Users/Lucifer.dark/Desktop/Lab04
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1228 C:\Users\Lucifer.dark\Desktop\Lab04\Lab04.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/Lab04/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Lab04\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/Jitter_clr.v w ]
+add_files C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/Jitter_clr.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/EDG.v w ]
+add_files C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/EDG.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sim_1/new/DBU_test.v w ]
+add_files -fileset sim_1 C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sim_1/new/DBU_test.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top DBU_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source DBU_test.tcl
+current_wave_config {}
+add_wave {{/DBU_test/dbu/cpu}} 
+relaunch_sim
+relaunch_sim
+close_sim

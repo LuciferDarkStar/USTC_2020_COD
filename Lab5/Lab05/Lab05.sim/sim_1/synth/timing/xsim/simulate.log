@@ -1,0 +1,4 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/FDCE.v" Line 169: Timing violation in scope /test/top/regfile/data_reg[11][1]/TChk169_46011 at time 125255 ps $setuphold (posedge C,posedge CE,(0:0:0),(0:0:0),notifier,ce_clk_enable_p,ce_clk_enable_p,C_dly,CE_dly) 
+$finish called at time : 134 ns : File "C:/Users/Lucifer.dark/Desktop/Lab05/Lab05.srcs/sim_1/new/test.v" Line 41

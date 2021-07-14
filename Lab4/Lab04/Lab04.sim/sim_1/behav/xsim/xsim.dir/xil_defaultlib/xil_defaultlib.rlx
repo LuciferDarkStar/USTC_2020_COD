@@ -1,0 +1,19 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sim_1/new/CPU_test.v,1589553497,verilog,,,,CPU_test,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sim_1/new/DBU_test.v,1589557053,verilog,,,,DBU_test,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/ip/Mem/sim/Mem.v,1589467452,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/ALU.v,,Mem,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/ALU.v,1589461561,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/ALUControl.v,,ALU,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/ALUControl.v,1589466496,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/CPU.v,,ALUControl,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/CPU.v,1589887379,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/Control.v,,CPU,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/Control.v,1589552295,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/DBU.v,,Control,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/DBU.v,1589557468,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/EDG.v,,DBU,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/EDG.v,1589554604,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/Jitter_clr.v,,EDG,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/Jitter_clr.v,1589554550,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_2.v,,Jitter_clr,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_2.v,1589467955,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_3.v,,MUX_2,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_3.v,1589468141,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_4.v,,MUX_3,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/MUX_4.v,1589468211,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/RF.v,,MUX_4,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sources_1/new/RF.v,1589461665,verilog,,C:/Users/Lucifer.dark/Desktop/Lab04/Lab04.srcs/sim_1/new/DBU_test.v,,RF,,,,,,,,
